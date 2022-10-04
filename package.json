@@ -1,0 +1,36 @@
+{
+  "name": "@gadingnst/fullstack-next-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prepare": "husky install",
+    "lint": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --max-warnings 0",
+    "lint:fix": "tsc --noEmit && eslint src --ignore-pattern 'src/public' --fix"
+  },
+  "dependencies": {
+    "mongodb": "^4.10.0",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.1",
+    "@types/react": "^18.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "autoprefixer": "^10.4.12",
+    "clsx": "^1.2.1",
+    "eslint": "^8.24.0",
+    "eslint-config-next": "^12.3.1",
+    "husky": "^8.0.1",
+    "postcss": "^8.4.17",
+    "postcss-import": "^15.0.0",
+    "tailwind-merge": "^1.6.1",
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.8.4",
+    "typescript-plugin-css-modules": "^3.4.0"
+  }
+}
